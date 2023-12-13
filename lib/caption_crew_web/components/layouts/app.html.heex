@@ -1,0 +1,74 @@
+<div>
+<div class="flex min-h-screen touch-manipulation flex-col">
+  <nav class="sticky top-0 z-10 bg-gray-50 py-3">
+    <div class="hidden max-w-full px-4 sm:px-6 lg:px-8 2xl:block">
+      <div class="flex h-16 items-center justify-between">
+        <.link aria-label="SoundLift Logo" navigate={~p"/"} replace>
+          <img class="h-44 w-40" src={~p"/images/Lockup.svg"} alt="SL" href="#" />
+        </.link>
+        <div class="flex items-center">
+          <.link
+            class={[
+              assigns[:current_path] == "/" &&
+                "font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 text-slblack scale-125 bg-slate-100",
+              "text-slblue font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 hover:text-slblack hover:scale-125 hover:bg-slate-100"
+            ]}
+            aria-current="page"
+            aria-label="Navigate to Shop"
+            patch={~p"/"}         
+          >
+            Home
+          </.link>
+          <.link
+            class={[
+              assigns[:current_path] == "/services" &&
+                "font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 text-slblack scale-125 bg-slate-100",
+              "text-slblue font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 hover:text-slblack hover:scale-125 hover:bg-slate-100"
+            ]}
+            aria-current="page"
+            aria-label="Navigate to Shop"
+            patch={~p"/services"}
+          >
+            Services
+          </.link>
+           <.link
+            class={[
+              assigns[:current_path] == "/about" &&
+                "font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 text-slblack scale-125 bg-slate-100",
+              "text-slblue font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 hover:text-slblack hover:scale-125 hover:bg-slate-100"
+            ]}
+            aria-current="page"
+            aria-label="Navigate to Shop"
+            patch={~p"/about"}
+          >
+            About
+          </.link>
+         <.link
+            class={[
+              assigns[:current_path] == "/contact" &&
+                "font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 text-slblack scale-125 bg-slate-100",
+              "text-slblue font-poppins mx-8 rounded-md px-3 py-2 text-base font-medium tracking-widest subpixel-antialiased transition duration-500 max-lg:mx-0 hover:text-slblack hover:scale-125 hover:bg-slate-100"
+            ]}
+            aria-current="page"
+            aria-label="Navigate to Shop"
+            patch={~p"/contact"}
+          >
+                      Contact
+          </.link>
+        </div>
+      </div>
+    </div>   
+  </nav>
+   <div class="mx-auto max-w-2xl">
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</div>
+<footer>
+  <div>
+  <p class="text-slblack mt-10 text-center text-md leading-5">
+       &copy; 2021 Caption Crew. All rights reserved.
+  </p>
+ </div>
+</footer>
+</div>
