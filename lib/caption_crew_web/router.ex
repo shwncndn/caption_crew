@@ -21,6 +21,7 @@ defmodule CaptionCrewWeb.Router do
     live "/about", AboutLive
     live "/services", ServicesLive
     live "/contact", ContactLive
+    live "/careers", CareersLive
   end
 
   # Other scopes may use custom stacks.
