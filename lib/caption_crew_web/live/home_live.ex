@@ -273,7 +273,6 @@ defmodule CaptionCrewWeb.HomeLive do
           </dl>
         </div>
       </div>
-
       <div class="relative isolate mt-48">
         <svg
           class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
@@ -351,7 +350,7 @@ defmodule CaptionCrewWeb.HomeLive do
 
                   <div class="relative">
                     <img
-                      src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                      src="/images/conference-vert.jpeg"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -372,7 +371,7 @@ defmodule CaptionCrewWeb.HomeLive do
 
                   <div class="relative">
                     <img
-                      src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                      src="/images/conference-vert.jpeg"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -386,7 +385,7 @@ defmodule CaptionCrewWeb.HomeLive do
         </div>
       </div>
       <!-- Footer -->
-      <footer class="bg-white" aria-labelledby="footer-heading">
+        <footer class="bg-white" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
         <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
           <div class="xl:grid xl:grid-cols-3 xl:gap-8">

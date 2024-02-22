@@ -2,7 +2,7 @@ defmodule CaptionCrewWeb.MedicalLive do
   use CaptionCrewWeb, :live_view
 
   def mount(_params, _session, socket) do
-    {:ok, socket}
+    {:ok, assign(socket, page_title: "Medical Lecture")}
   end
 
   def render(assigns) do

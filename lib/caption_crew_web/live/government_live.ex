@@ -2,7 +2,7 @@ defmodule CaptionCrewWeb.GovernmentLive do
   use CaptionCrewWeb, :live_view
 
   def mount(_params, _session, socket) do
-    {:ok, assign(socket, page_title: "Government")}
+    {:ok, assign(socket, page_title: "Government Services")}
   end
 
   def render(assigns) do
@@ -43,12 +43,12 @@ defmodule CaptionCrewWeb.GovernmentLive do
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div class="lg:pr-4">
             <div class="lg:max-w-lg">
-              <p class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+              <p class="text-base font-semibold leading-7 text-indigo-600">Government Services</p>
               <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                A better workflow
+                Join the conversation
               </h1>
               <p class="mt-6 text-xl leading-8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas.
+                Our live captioning service enables full participation and an accurate record for your local government and community organization meetings.
               </p>
             </div>
           </div>
@@ -56,16 +56,13 @@ defmodule CaptionCrewWeb.GovernmentLive do
         <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="/images/government-main.jpeg"
             alt=""
           />
         </div>
         <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div class="lg:pr-4">
             <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-              </p>
               <ul role="list" class="mt-8 space-y-8 text-gray-600">
                 <li class="flex gap-x-3">
                   <svg
@@ -81,8 +78,8 @@ defmodule CaptionCrewWeb.GovernmentLive do
                     />
                   </svg>
                   <span>
-                    <strong class="font-semibold text-gray-900">Push to deploy.</strong>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                    <strong class="font-semibold text-gray-900">We've got you covered.</strong>
+                    We provide real-time streaming text of spoken words during city council sessions, disability access committees, homeowner associations, hearing loss associations, and any public municipal meeting.
                   </span>
                 </li>
                 <li class="flex gap-x-3">
@@ -100,7 +97,7 @@ defmodule CaptionCrewWeb.GovernmentLive do
                   </svg>
                   <span>
                     <strong class="font-semibold text-gray-900">SSL certificates.</strong>
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    We are committed to accessibility and inclusion. Our live captioning service helps local governments and organizations comply with ADA requirements and demonstrate their commitment to ensuring community participation.
                   </span>
                 </li>
                 <li class="flex gap-x-3">
@@ -123,19 +120,138 @@ defmodule CaptionCrewWeb.GovernmentLive do
                   </span>
                 </li>
               </ul>
-              <p class="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
               <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                No server? No problem.
+                No minutes? No problem.
               </h2>
               <p class="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.
+                Our captioners utilize the state-of-the-art, zero-latency StreamText service and deliver with over 99% accuracy. The scrolling transcript created serves as searchable minutes for your community's records.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <footer class="bg-white" aria-labelledby="footer-heading">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div class="space-y-8">
+              <img
+                class="h-7"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt="Company name"
+              />
+              <div class="flex space-x-6"></div>
+            </div>
+            <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Marketing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Analytics
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Commerce
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Insights
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Support</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Pricing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Documentation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Guides
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        API Status
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Jobs</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Press
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Partners
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Claim
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Privacy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Terms
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+            <p class="text-xs leading-5 text-gray-500">
+              &copy; 2024 Caption Crew, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
     """
   end
