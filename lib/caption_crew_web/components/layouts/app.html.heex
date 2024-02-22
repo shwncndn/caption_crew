@@ -1,4 +1,11 @@
 <div>
+  <div class="flex justify-center bg-black">
+    <div class="-ml-4">
+      <.link aria-label="SoundLift Logo" navigate={~p"/"} replace>
+        <img class="h-52 w-50 mt-4" src={~p"/images/logo-white.svg"} alt="SL" href="#" />
+      </.link>
+    </div>
+  </div>
   <div class="flex min-h-screen touch-manipulation flex-col">
     <nav class="sticky top-0 z-10 bg-gray-50 py-3">
       <div class="flex justify-center">
@@ -56,6 +63,7 @@
         </div>
       </div>
     </nav>
+    
     <div class="mx-auto">
       <.flash_group flash={@flash} />
       <%= @inner_content %>

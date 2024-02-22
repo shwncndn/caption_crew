@@ -77,7 +77,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     />
                   </svg>
                 </dt>
-                <dd>545 Mavis Island<br />Chicago, IL 99191</dd>
+                <dd>5401 NE 17th Terrace<br />Fort Lauderdale, FL 33334</dd>
               </div>
               <div class="flex gap-x-4">
                 <dt class="flex-none">
@@ -98,7 +98,7 @@ defmodule CaptionCrewWeb.ContactLive do
                   </svg>
                 </dt>
                 <dd>
-                  <a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">+1 (555) 234-5678</a>
+                  <a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">+1 (954) 849-8887</a>
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -120,7 +120,9 @@ defmodule CaptionCrewWeb.ContactLive do
                   </svg>
                 </dt>
                 <dd>
-                  <a class="hover:text-gray-900" href="mailto:hello@example.com">hello@example.com</a>
+                  <a class="hover:text-gray-900" href="mailto:hello@example.com">
+                    admin@captioncrew.com
+                  </a>
                 </dd>
               </div>
             </dl>
@@ -139,7 +141,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     name="first-name"
                     id="first-name"
                     autocomplete="given-name"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -153,7 +155,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     name="last-name"
                     id="last-name"
                     autocomplete="family-name"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -167,7 +169,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     name="email"
                     id="email"
                     autocomplete="email"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -181,7 +183,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     name="phone-number"
                     id="phone-number"
                     autocomplete="tel"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -194,7 +196,7 @@ defmodule CaptionCrewWeb.ContactLive do
                     name="message"
                     id="message"
                     rows="4"
-                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-600 sm:text-sm sm:leading-6"
                   ></textarea>
                 </div>
               </div>
@@ -202,7 +204,7 @@ defmodule CaptionCrewWeb.ContactLive do
             <div class="mt-8 flex justify-end">
               <button
                 type="submit"
-                class="rounded-md bg-teal-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-700 transition hover:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
+                class="rounded-md bg-teal-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 transition hover:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
               >
                 Send message
               </button>
@@ -210,6 +212,131 @@ defmodule CaptionCrewWeb.ContactLive do
           </div>
         </form>
       </div>
+    </div>
+    <!-- Footer -->
+    <div>
+      <footer class="bg-white" aria-labelledby="footer-heading">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div class="space-y-8">
+              <img
+                class="h-7"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt="Company name"
+              />
+              <div class="flex space-x-6"></div>
+            </div>
+            <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Marketing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Analytics
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Commerce
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Insights
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Support</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Pricing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Documentation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Guides
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        API Status
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">Jobs</a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Press
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Partners
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Claim
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Privacy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        Terms
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+            <p class="text-xs leading-5 text-gray-500">
+              &copy; 2024 Caption Crew, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
     """
   end

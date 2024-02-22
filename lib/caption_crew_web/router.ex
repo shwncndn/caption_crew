@@ -22,6 +22,13 @@ defmodule CaptionCrewWeb.Router do
     live "/services", ServicesLive
     live "/contact", ContactLive
     live "/careers", CareersLive
+
+    live "/legal", LegalLive
+    live "/sports", SportsLive
+    live "/medical", MedicalLive
+    live "/academic", AcademicLive
+    live "/conference", ConferenceLive
+    live "/government", GovernmentLive
   end
 
   # Other scopes may use custom stacks.

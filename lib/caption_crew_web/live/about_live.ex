@@ -7,7 +7,7 @@ defmodule CaptionCrewWeb.AboutLive do
 
   def render(assigns) do
     ~H"""
-    <div class="bg-teal-900">
+    <div class="rounded-b-xl bg-teal-900">
       <!-- Header -->
       <header class="absolute inset-x-0 top-0 z-50">
         <nav
@@ -110,21 +110,18 @@ defmodule CaptionCrewWeb.AboutLive do
       </header>
 
       <main class="relative isolate">
-        <!-- Background -->
-        <%!-- <div class="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
-          <div class="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)"></div>
-        </div> --%>
-        <!-- Header section -->
-        <div class="px-6 pt-14 lg:px-8">
-          <div class="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
-            <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-300">
+        <div class="bg-gray-900 py-24 sm:py-32">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+              <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
+              <p class="mt-6 text-lg leading-8 text-gray-300">
               Caption Crew has been providing high-quality CART and captioning services since 1994.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
-        <!-- Content section -->
-        <div class="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+            <!-- Content section -->
+              <div class="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div class="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2">
               <div>
@@ -141,34 +138,9 @@ defmodule CaptionCrewWeb.AboutLive do
                 </p>
               </div>
             </div>
-            <dl class="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
-              <div class="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6">
-                <dt class="text-base leading-7 text-gray-300">Business was founded</dt>
-                <dd class="text-3xl font-semibold tracking-tight text-white">2012</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6">
-                <dt class="text-base leading-7 text-gray-300">People on the team</dt>
-                <dd class="text-3xl font-semibold tracking-tight text-white">120+</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6">
-                <dt class="text-base leading-7 text-gray-300">Users on the platform</dt>
-                <dd class="text-3xl font-semibold tracking-tight text-white">250k</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6">
-                <dt class="text-base leading-7 text-gray-300">Paid out to creators</dt>
-                <dd class="text-3xl font-semibold tracking-tight text-white">$70M</dd>
-              </div>
-            </dl>
           </div>
         </div>
-        <!-- Image section -->
-        <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
-            alt=""
-            class="aspect-[9/4] w-full object-cover xl:rounded-3xl"
-          />
-        </div>
+
         <!-- Values section -->
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0">
@@ -197,7 +169,7 @@ defmodule CaptionCrewWeb.AboutLive do
                     clip-rule="evenodd"
                   />
                 </svg>
-                Be world-class.
+                From the start.
               </dt>
               <dd class="inline">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.
@@ -294,35 +266,22 @@ defmodule CaptionCrewWeb.AboutLive do
           </dl>
         </div>
 
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
-            <div class="w-full mb-8 lg:max-w-lg lg:flex-auto">
-              <h2 class="text-3xl font-bold tracking-tight text-[#F6F5EB] sm:text-4xl">
-                We’re always looking for awesome people to join us
-              </h2>
-              <p class="mt-6 text-xl leading-8 text-gray-100">
-                Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu. Cras purus nibh cursus sit eu in id.
-              </p>
-              <img
-                src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
-                alt=""
-                class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
-              />
-            </div>
-            <div class="w-full lg:max-w-xl lg:flex-auto">
-              <h3 class="sr-only">Job openings</h3>
-              <ul class="-my-8 divide-y divide-gray-100"></ul>
-              <div class="mt-8 flex border-t border-gray-100 pt-8">
-                <a
-                  href="#"
-                  class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
-                >
-                  View all openings <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+            <!--
+    This example requires some changes to your config:
+
+    ```
+    // tailwind.config.js
+    module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+    }
+    ```
+    -->
+
       </main>
       <!-- Footer -->
       <footer class="bg-white" aria-labelledby="footer-heading">
