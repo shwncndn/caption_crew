@@ -15,7 +15,8 @@ config :caption_crew, CaptionCrewWeb.Endpoint,
   debug_errors: true,
   secret_key_base: "po50KH0fh99r6R3kwNuG2YTql/ozSs6bRcs6cnzgqouvo7C1ZwiUxECDal9T6EZ2",
   watchers: [
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
+    node: ["build.js", "--watch", cd: Path.expand("../assets", __DIR__)],
+    # esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
   ]
 

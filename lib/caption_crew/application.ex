@@ -8,6 +8,7 @@ defmodule CaptionCrew.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      {NodeJS.Supervisor, [path: LiveSvelte.SSR.NodeJS.server_path(), pool_size: 4]},
       CaptionCrewWeb.Telemetry,
       {DNSCluster, query: Application.get_env(:caption_crew, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: CaptionCrew.PubSub},

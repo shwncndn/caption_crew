@@ -87,6 +87,7 @@ defmodule CaptionCrewWeb do
       import CaptionCrewWeb.CoreComponents
       import CaptionCrewWeb.Gettext
 
+      import LiveSvelte
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS
 
