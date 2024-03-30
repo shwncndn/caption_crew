@@ -114,8 +114,6 @@ defmodule CaptionCrewWeb.HomeLive do
         </div>
       </header>
 
-      <h2>TODO: Add zoom-style virtual meeting</h2>
-
       <div class="mt-80 sm:mt-56">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl sm:text-center">
