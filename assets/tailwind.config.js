@@ -9,7 +9,8 @@ module.exports = {
   content: [
     "./js/**/*.js",
     "../lib/caption_crew_web.ex",
-    "../lib/caption_crew_web/**/*.*ex"
+    "../lib/caption_crew_web/**/*.*ex",
+    "./svelte/**/*.svelte"
   ],
   theme: {
     extend: {
